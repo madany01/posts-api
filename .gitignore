@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Python packages
+__pypackages__
+
+# Python pdm
+.pdm.toml
