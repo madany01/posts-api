@@ -1,0 +1,30 @@
+[project]
+name = "posts-api"
+version = ""
+description = ""
+authors = [
+    {name = "Ahmad Madany", email = "ahmad.madany.01@gmail.com"},
+]
+dependencies = [
+    "fastapi[all]>=0.83.0",
+]
+requires-python = ">=3.10"
+[project.optional-dependencies]
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.8.0",
+    "flake8>=5.0.4",
+]
+
+
+
+[tool.black]
+line-length = 97
+skip-string-normalization = true
